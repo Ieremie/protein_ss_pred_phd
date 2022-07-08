@@ -23,7 +23,7 @@ from timeit import default_timer as timer
 def get_model():
 
     LR = 0.00009
-    drop_out = 0.6
+    drop_out = 0.7
     w_reg = regularizers.l2(0)
     windowSize = 19
     classSize = 8
@@ -167,7 +167,7 @@ def get_dataset():
 
 def main():
 
-    nn_epochs = 45
+    nn_epochs = 150
     train_set, val_set = get_dataset()
 
     #callbacks

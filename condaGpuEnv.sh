@@ -1,4 +1,8 @@
 #!/bin/bash
 
-module import conda
-conda activate gpu-iridis
+
+module load conda
+
+source activate gpu-iridis
+
+
